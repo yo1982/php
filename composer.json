@@ -1,0 +1,15 @@
+{
+    "name": "ec2-user/project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yo fa"
+        }
+    ],
+    "require": {
+        
+        "aws/aws-sdk-php": "^3.273"
+        
+    }
+}
