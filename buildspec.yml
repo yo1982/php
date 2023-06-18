@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      php: 7.4
+  pre_build:
+    commands:
+      - echo "Executing pre-build commands"
+      # Additional pre-build commands if needed
+  build:
+    commands:
+      - echo "Executing build commands"
+      # Build commands to install dependencies, run tests, etc.
+  post_build:
+    commands:
+      - echo "Executing post-build commands"
+      # Additional post-build commands if needed
+artifacts:
+  files:
+    - '**/*' # Include all files in the build output
